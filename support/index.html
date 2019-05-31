@@ -1,4 +1,260 @@
-﻿<p>如果您在使用十忆 App 遇到什么问题，
-	请给发邮件给我让我知道 iterrywang@gmail.com 或者在 App Store中给我留言，我会第一时间查看，感谢您的关注和喜爱~
-</p>
+﻿<!DOCTYPE html>
+<html itemscope itemtype='http://schema.org/WebPage' lang='zh-CN' xmlns:fb='https://www.facebook.com/2008/fbml' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<script>
+  (function() {
+    window.$B = window.Bobcat = {};
+  
+    $B.timerStart = new Date().getTime();
+  
+    $B.timerCheck = function(label) {
+      var ms, msg;
+      ms = new Date().getTime() - $B.timerStart;
+      msg = "[TIMER] " + label + " in " + ms + "ms";
+      (typeof $B.log === "function" ? $B.log(msg) : void 0) || (typeof console !== "undefined" && console !== null ? typeof console.log === "function" ? console.log(msg) : void 0 : void 0);
+      return ms;
+    };
+  
+  }).call(this);
+</script>
+<title>上线了sxl.cn | 简单易用・专业美观</title>
+<script src='/dollars/v1/sites/site-544890-9510-4940/edit.js' type='text/javascript'></script>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"74f55de04c","applicationID":"13304874","transactionName":"IlcLQxBeWFoHShYQUBVdFhgHVV1C","queueTime":8,"applicationTime":496,"agent":""}</script>
+<script>window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta content='width=device-width,user-scalable=no,initial-scale=1.0' id='viewport' name='viewport'>
+<link href='https://static-assets.sxlcdn.com/images/icons/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+
+<link rel="stylesheet" media="screen" href="https://static-assets.sxlcdn.com/v4/editor.692e825a6ef00558ca16.bundle.css" /><link rel="stylesheet" media="screen" href="https://static-assets.sxlcdn.com/themes/s5-theme/main_v4_editor.45f37aafb7ab1ba1b6cd.bundle.css" />
+<script>
+  var segmentioKey;
+  if ($S.global_conf && $S.global_conf.SEGMENTIO_API_KEY) {
+    segmentioKey = $S.global_conf.SEGMENTIO_API_KEY
+  } else if ($S.globalConf && $S.globalConf.SEGMENTIO_API_KEY){
+    segmentioKey = $S.globalConf.SEGMENTIO_API_KEY
+  }
+  window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"o0sgccujz.qnssl.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",
+  window.analytics.load(segmentioKey);
+</script>
+<script>
+  function getQueryParam(url, param) {
+    // Expects a raw URL
+    param = param.replace(/[[]/, "\[").replace(/[]]/, "\]");
+    var regexS = "[\?&]" + param + "=([^&#]*)",
+        regex = new RegExp( regexS ),
+        results = regex.exec(url);
+    if (results === null || (results && typeof(results[1]) !== 'string' && results[1].length)) {
+        return '';
+    } else {
+        return decodeURIComponent(results[1]).replace(/\+/g, ' ');
+    }
+  };
+  function campaignParams() {
+    var campaign_keywords = 'utm_source utm_medium utm_campaign utm_content utm_term'.split(' ')
+    , kw = ''
+    , params = {}
+    var index;
+    for (index = 0; index < campaign_keywords.length; ++index) {
+        kw = getQueryParam(document.URL, campaign_keywords[index]);
+        var utm_name = campaign_keywords[index] + '_current';
+        if (kw.length != 0) {
+            params[utm_name] = kw;
+        } else {
+          window.mixpanel && window.mixpanel.unregister(utm_name)
+        }
+    }
+    window.mixpanel && window.mixpanel.register(params);
+  };
+  window.analytics.ready(function(){
+      campaignParams();
+      function waitForCookie(f) {
+       if (window.$ && window.$.cookie)
+         f();
+       else
+         setTimeout(waitForCookie, 50, f);
+     }
+     waitForCookie(function () {
+       $('#user_mixpanel_id').val(mixpanel.get_distinct_id())
+       $.cookie('__landing_mixpanel_id', mixpanel.get_distinct_id())
+     });
+  });
+</script>
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?" + ($S.global_conf || $S.globalConf).BAIDU_API_KEY;
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<script>
+  var _vds = _vds || [];
+  window._vds = _vds;
+  (function(){
+    _vds.push(['setAccountId', ($S.global_conf || $S.globalConf).GROWINGIO_API_KEY]);
+    var user = $S.user_meta;
+    if (user) {
+      _vds.push(['setCS1', 'id', user.id])
+      _vds.push(['setCS2', 'created_at', user.created_at]);
+      _vds.push(['setCS3', 'name', user.name]);
+      _vds.push(['setCS4', 'is_reseller_agent', user.is_reseller_agent]);
+      _vds.push(['setCS5', 'page_count', user.page_count]);
+      _vds.push(['setCS6', 'plan', user.plan]);
+    }
+    (function() {
+      var vds = document.createElement('script');
+      vds.type='text/javascript';
+      vds.async = true;
+      vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'assets.growingio.com/vds.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(vds, s);
+    })();
+  })();
+</script>
+<script>
+  window.analytics.page();
+</script>
+
+<script>
+  if(window.$S && window.$S.user_meta && window.$S.user_meta.user_type === 'zhubajie' && self === top) {
+    window.location.pathname = '/s/logout'
+  }
+  var _strkEditor = _strkEditor || []
+  window.v4 = true
+</script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="vscdunHgC9RrbL3DQKLJn/UVGDZxG9G+pRA2gbsxXVADFJ3LFCMLnDT6TQGy4BoGKsvu2Ky0kw09+to7ey7C8g==" />
+<meta name="asset-url" content="https://static-assets.sxlcdn.com" />
+<script src="https://static-assets.sxlcdn.com/detectIE-c385c24313ef0e9e4e7a1e131bf5e59f0fbd468f9f9ef44fd6739ae84ef0c0a4.js" async="async"></script>
+
+</head>
+<body class='edit locale-zh-CN product-sxl' id='sites'><script src="//ajax.sxlcdn.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script><script>
+  window.jQuery || document.write('<script src="https://static-assets.sxlcdn.com/jquery-f4e2137d267f77818d966e03df031337a38003039d43f15029422ddd171e14c4.js"><\/script>')
+</script>
+<script>
+  var I18n = I18n || {};
+  I18n.defaultLocale = "zh-CN";
+  I18n.locale = "zh-CN";
+  I18n.fallbacks = true
+</script>
+<script src="https://static-assets.sxlcdn.com/v4_editor-7cdb4f352fc511c041332c57bc9a4355b302c40f841ddf60e2a3bfff52fa3076.js"></script><script src="https://static-assets.sxlcdn.com/webpack/app-dll.36e2481345e1a26e360e.js"></script><script src="https://static-assets.sxlcdn.com/webpack/editor-app-bundle.cfe18f5b071147eedbca.js"></script><script>
+  user_id = $S.user_meta.id.toString();
+  $S.user_meta.locale = $S.global_conf.locale
+  var track = function() {
+    $B.trackingAlias(user_id, function() {
+      analytics.identify(user_id, $S.user_meta);
+    }, {integrations: {'Vero': false}});
+  }
+  if (typeof _strkEditor !== "undefined") {
+    _strkEditor.push(['Editor.didMount', track]);
+  } else {
+    track();
+  }
+</script><div id='s-editor-container'></div>
+<div id='fb-root'></div>
+<div id='app-script-root'></div>
+<div id='app-view-root'></div>
+<div id='tutorial'>
+<div class='dialog strikingly-dialog dark-bg'>
+<div class='inner-dialog'>
+<div class='panel panel1'>
+<div class='text'>
+<h3>欢迎！</h3>
+欢迎来到上线了的编辑器，这里有些小提示，帮助你更好地开始旅程
+<br>
+<br>
+</div>
+<div class='next'>
+<a class='s-btn small dark-gray' onclick='window.edit_page.showMenu(); window.edit_page.tutorial.exit();return false;'>不用，谢谢</a>
+<a class='s-btn small green' onclick='window.edit_page.showMenu(); window.edit_page.tutorial.next();return false;'>好的，开始吧</a>
+</div>
+</div>
+<div class='panel panel2'>
+<div class='text'>
+<h3>网站部件</h3>
+网站以版块为单位来分割，你可以添加，删除，重新排序，以及跳转到不同的版块
+</div>
+<div class='next'>
+<a class='s-btn small dark-gray' onclick='window.edit_page.showMenu(); window.edit_page.tutorial.exit();return false;'>退出</a>
+<a class='s-btn small green' onclick='window.edit_page.tutorial.next();return false;'>下一页</a>
+</div>
+</div>
+<div class='panel panel3'>
+<div class='text'>
+<h3>添加商店，博客和其他版块</h3>
+点击这个按钮添加新的版块，例如商店、博客、相册、联系表单等
+</div>
+<div class='next'>
+<a class='s-btn small dark-gray' onclick='window.edit_page.showMenu(); window.edit_page.tutorial.exit();return false;'>退出</a>
+<a class='s-btn small green' onclick='window.edit_page.tutorial.next();return false;'>下一页</a>
+</div>
+</div>
+<div class='panel panel4'>
+<div class='text'>
+<h3>自定义</h3>
+<span>用“风格”改变网站的外观和整体样式，“设置”调整域名、自定义域名以及更多详细功能</span>
+</div>
+<div class='next'>
+<a class='s-btn small dark-gray' onclick='window.edit_page.showMenu(); window.edit_page.tutorial.exit();return false;'>退出</a>
+<a class='s-btn small green' onclick='window.edit_page.tutorial.next();return false;'>下一页</a>
+</div>
+</div>
+<div class='panel panel5'>
+<div class='text'>
+<h3>发布上线</h3>
+网站完成后，请记得点击&quot;上线&quot;，访客才能看到你的网站
+</div>
+<div class='next'>
+<a class='s-btn small dark-gray' onclick='window.edit_page.showMenu(); window.edit_page.tutorial.exit();return false;'>退出</a>
+<a class='s-btn small green' onclick='window.edit_page.tutorial.next();return false;'>下一页</a>
+</div>
+</div>
+<div class='panel panel6'>
+<div class='text'>
+<h3>获取帮助</h3>
+如需帮助，请点击此图标找到问题答案或直接联系我们
+</div>
+<div class='next'>
+<a class='s-btn small dark-gray' onclick='window.edit_page.showMenu(); window.edit_page.tutorial.exit();return false;'>退出</a>
+<a class='s-btn small green' onclick='window.edit_page.tutorial.next();return false;'>下一页</a>
+</div>
+</div>
+<div class='panel panel7'>
+<div class='text'>
+<h3>网站编辑区域</h3>
+点击网站任意部分，开始编辑你的网站吧
+</div>
+<div class='next'>
+<a class='s-btn small green' onclick='window.edit_page.showMenu(); window.edit_page.tutorial.exit();return false;'>开始吧</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<a class='fancybox-tutorial-video' href='//www.youtube.com/embed/O2e10e84Tz8?rel%3D1%26playlist%3DO2e10e84Tz8%26origin%3Dhttp%3A%2F%2Fwww.strikingly.com%2Fstart%3Futm_campaign%3D%255B1%255D%2B%255B%253C10%2BEdits%255D%2BFollowup%2Bemails%26utm_content%3Dcontrol%26utm_medium%3Demail%26utm_source%3Dvero%26utm_term%3DBehavioural'></a>
+
+<div id='strikingly-tooltip-container'></div>
+<div class='se-hidden-pixel'>
+<img src="https://static-assets.sxlcdn.com/images/loading-small.gif" alt="Loading small" />
+</div>
+<div id='fb-root'></div><script src="https://static-assets.sxlcdn.com/ckeditor-256515c5f9d6bac2d199e5bab8932277d47e958d910221c8189359ba7d099ebc.js"></script><script type="text/javascript">$.cloudinary.config({"api_key":"779414649948488","cloud_name":"hrscywv4p","private_cdn":false});</script><div id='s-support-widget-container'></div>
+<script type='text/javascript'>
+var I18n = I18n || {};
+I18n.defaultLocale = "zh-CN";
+I18n.locale = "zh-CN";
+I18n.fallbacks = true;
+I18n.missingTranslation = function() {
+var message = '[missing "' + this.currentLocale()
+, count = arguments.length
+;
+for (var i = 0; i < count; i++) {
+message += "." + arguments[i];
+}
+message += '" translation]';
+return message;
+};
+</script></body>
+</html>
 
